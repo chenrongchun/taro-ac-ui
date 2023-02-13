@@ -1,5 +1,5 @@
 {
-  "name": "taro-ui-sample",
+  "name": "taro-ai-ui",
   "version": "1.0.0",
   "description": "Taro 第三方 UI 库示范用例",
   "main": "dist/index.js",

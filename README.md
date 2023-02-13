@@ -18,7 +18,7 @@ export { default as B } from './components/B/B'
 这样的话，这个组件库使用起来，会是如下的方式
 
 ```javascript
-import { A } from 'taro-ui-sample'
+import { A } from 'taro-ai-ui'
 
 <A />
 ```
@@ -34,7 +34,7 @@ export default A
 这样的话，这个组件库使用起来，会是如下的方式
 
 ```javascript
-import A from 'taro-ui-sample'
+import A from 'taro-ai-ui'
 
 <A />
 ```
@@ -58,7 +58,7 @@ if (process.env.TARO_BUILD_TYPE === 'ui') {
         path: path.join(process.cwd(), 'dist', 'h5'),
         filename: 'index.js',
         libraryTarget: 'umd',
-        library: 'taro-ui-sample'
+        library: 'taro-ai-ui'
       },
       externals: {
         nervjs: 'commonjs2 nervjs',
